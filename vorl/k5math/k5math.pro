@@ -1,0 +1,11 @@
+TEMPLATE = app
+CONFIG += console
+CONFIG -= app_bundle
+CONFIG -= qt
+
+SOURCES += \
+    k5math.c
+
+include(deployment.pri)
+qtcAddDeployment()
+
