@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     k5math.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

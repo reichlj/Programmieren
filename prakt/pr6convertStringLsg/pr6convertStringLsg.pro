@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     pr6convertStringLsg.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

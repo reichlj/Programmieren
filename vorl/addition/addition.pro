@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     addition.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     k4overflowint.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

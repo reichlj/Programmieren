@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     k3quadratdowhile.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

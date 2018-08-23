@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     pr6kreisZeigerLsg.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

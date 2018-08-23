@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     k6messwerte.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

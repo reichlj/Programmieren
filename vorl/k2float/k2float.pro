@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     k2float.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

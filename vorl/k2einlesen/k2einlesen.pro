@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     k2einlesen.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     k3wurzel.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

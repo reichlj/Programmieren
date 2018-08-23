@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     pr5integration.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

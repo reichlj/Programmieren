@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     pr5trapezLsg.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

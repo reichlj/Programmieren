@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     k3SchleifenVerschachtelt.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

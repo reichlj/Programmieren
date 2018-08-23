@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     pr5addiereLsg.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

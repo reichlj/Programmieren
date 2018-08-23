@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     stromrechnungLsg.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

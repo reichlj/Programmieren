@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     k4gleitkomma.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     pr3tabelleLsg.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

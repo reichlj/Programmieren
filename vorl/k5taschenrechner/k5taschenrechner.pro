@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     k5taschenrechner.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

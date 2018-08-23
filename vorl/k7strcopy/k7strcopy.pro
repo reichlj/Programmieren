@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     k7strcopy.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     k4rundungsfehler.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

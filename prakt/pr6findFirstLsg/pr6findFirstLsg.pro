@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     pr6findFirstLsg.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

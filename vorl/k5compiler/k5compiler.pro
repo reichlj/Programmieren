@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     k5compiler.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

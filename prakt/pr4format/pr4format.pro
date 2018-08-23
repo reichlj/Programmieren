@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     pr4format.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

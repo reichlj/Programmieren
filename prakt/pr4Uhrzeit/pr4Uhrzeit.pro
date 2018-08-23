@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     pr4Uhrzeit.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

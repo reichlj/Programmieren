@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     pr3printf.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

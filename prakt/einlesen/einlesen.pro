@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     einlesen.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

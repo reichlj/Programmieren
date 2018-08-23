@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     pr6kreisGlobalLsg.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

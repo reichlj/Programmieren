@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     bmi.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

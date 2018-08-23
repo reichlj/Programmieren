@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     k4qsolve.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

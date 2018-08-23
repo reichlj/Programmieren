@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     k3max3a.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

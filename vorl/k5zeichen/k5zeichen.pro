@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     k5zeichen.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

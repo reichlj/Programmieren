@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     k7messwerteZeigerNotation.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

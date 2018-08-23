@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     pr6umlenkung.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

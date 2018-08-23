@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     k3quadratfor.c
 
-include(deployment.pri)
-qtcAddDeployment()
-

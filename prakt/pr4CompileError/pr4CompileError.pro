@@ -5,7 +5,3 @@ CONFIG -= qt
 
 SOURCES += \
     pr4CompileError.c
-
-include(deployment.pri)
-qtcAddDeployment()
-

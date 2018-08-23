@@ -6,6 +6,3 @@ CONFIG -= qt
 SOURCES += \
     pr4RuntimeErr1.c
 
-include(deployment.pri)
-qtcAddDeployment()
-
