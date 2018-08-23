@@ -6,7 +6,6 @@ int main(void)
 {
   double x1=3.0, x2=3.75, z, t;
   int n=4;
-
   z = power(x1,n);
   printf("%.0f hoch %d =%f\n",x1,n,z);
   t = power(x2,5);
