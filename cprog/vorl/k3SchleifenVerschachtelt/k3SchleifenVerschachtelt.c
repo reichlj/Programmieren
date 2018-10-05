@@ -4,17 +4,17 @@
 #include <stdio.h>
 int main(void)
 {
-  int i, j;
+  int z, s;
 
-  for(i = 1; i < 5; i = i + 1)
+  for(z = 1; z < 5; z = z + 1)
   {
     // aeussere Schleife
-    for(j = 1; j < 6; j = j + 1)
+    for(s = 1; s < 6; s = s + 1)
     {
-      // innere Schleife
-      printf("i%d/j%d\t", i, j);
+      // innere Schleife - Element in einer Zeile ausgeben
+      printf("i%d/j%d\t", z, s);
     }
-    printf("\n");
+    printf("\n"); /* neue Zeile beginnen */
   }
   return 0;
 }

@@ -10,11 +10,14 @@ int main(void)
   sum = z1 + z2;
   printf("Zahl1: %f Zahl2: %f\n",z1, z2);
 
-  if ( sum < 0.0 ) {
-       printf("Ergebnis ist negativ!");
-  } else {
+  if ( sum < 0.0 )
+  {
+       printf("Ergebnis ist negativ!\n");
+  }
+  else
+  {
+       printf("Ergebnis ist positiv!\n");
        printf("Summe : %f\n",sum);
-       printf("Ergebnis ist positiv!");
   }
   return 0;
 }
