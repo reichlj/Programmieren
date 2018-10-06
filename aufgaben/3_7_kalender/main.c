@@ -1,27 +1,23 @@
 #include <stdio.h>
 int main (void)
 {
-  int erster;
-  int letzter;  /* Anzahl der Tage im Monat */
-  int count;    /* zaehlt die Kaestchen     */
-  int tag;      /* Tag der ausgegeben wird  */
-  int weiter;
+  int erster, tageImMonat, zelle, tag, weiter;
   do
   {
      printf("Mit welchem Wochentag beginnt der Monat?\n");
      printf("Sonntag=0 Montag=1 ... :\n");
      scanf("%d",&erster);
      printf("Wieviel Tage besitzt der Monat?\n");
-     scanf("%d",&letzter);
+     scanf("%d",&tageImMonat);
 
      printf("  So  Mo  Di  Mi  Do  Fr  Sa\n");
-     count= 0;
+     zelle= 0;
      tag= 0;
-     while (tag < letzter)
+     while (tag < tageImMonat)
      {
-        if ( count < erster )
+        if ( zelle < erster )
         {
-           /* Monatserster noch nicht erreicht */
+           /*Monatserster noch nicht erreicht*/
            printf("    ");
         }
         else
@@ -29,8 +25,8 @@ int main (void)
            tag = tag + 1;
            printf("%4d",tag);
         }
-        count = count + 1;
-        if (count%7 == 0)
+        zelle = zelle + 1;
+        if (zelle%7 == 0)
            printf("\n");
      }
      printf("\nWeitermachen? (1=weiter,sonst Abbruch)");

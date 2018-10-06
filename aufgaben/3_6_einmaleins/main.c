@@ -5,12 +5,12 @@ int main(void)
 
   do
   {
-     printf("Wert 1<=n<=10 eingeben :");
+     printf("Wert 1<=n<=15 eingeben :");
      scanf("%d", &n);
   }
-  while ( n<1 || n>10 );
+  while ( n<1 || n>15 );
 
-  printf("\nEinmaleins-Tabelle bis %d\n\n",n);
+  printf("Einmaleins-Tabelle bis %d\n",n);
   for (zeile=1; zeile<=n; zeile=zeile+1)
   {
      for (spalte=1; spalte<=n; spalte=spalte+1)

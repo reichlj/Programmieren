@@ -7,11 +7,11 @@ int main(void)
   scanf("%f", &zahl);
   while ( zahl > 0 ) {
      count = count + 1;
+     if ( count == 1 )
+        min = zahl;
      sum = sum + zahl;
      if ( zahl > max )
         max = zahl;
-     if ( count == 1 )
-        min = zahl;
      if ( zahl < min )
         min = zahl;
      if ( zahl < 10.0 )
