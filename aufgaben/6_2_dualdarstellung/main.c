@@ -2,14 +2,14 @@
 
 #define SIZE 31
 int dual[SIZE];
-int auswahl(void);
+int zahlEinlesen(void);
 void ausgabe(int zahl, int n);
 int umwandlung (int zahl);
 
 int main(void)
 {
    int i,stellen;
-   i = auswahl();
+   i = zahlEinlesen();
    stellen = umwandlung(i);
    ausgabe(i,stellen);
    return 0;
@@ -37,7 +37,7 @@ void ausgabe(int zahl,int n)
    printf("\n\n\n");
 }
 
-int auswahl(void)
+int zahlEinlesen(void)
 {
    int zahl;
    do {
