@@ -3,7 +3,7 @@
 #define SIZE 31
 int dual[SIZE];
 int einlesenZahl(void);
-void ausgabe(int zahl, int n);
+void ausgeben(int zahl, int n);
 int umwandlung (int zahl);
 
 int main(void)
@@ -11,7 +11,7 @@ int main(void)
    int i,stellen;
    i = einlesenZahl();
    stellen = umwandlung(i);
-   ausgabe(i,stellen);
+   ausgeben(i,stellen);
    return 0;
 }
 
@@ -26,7 +26,7 @@ int umwandlung (int zahl)
    return n;
 }
 
-void ausgabe(int zahl,int n)
+void ausgeben(int zahl,int n)
 {
    int i;
    printf("Dualdarstelllung von %d\n",zahl);

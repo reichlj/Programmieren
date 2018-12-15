@@ -13,7 +13,7 @@ int main(void)
    z = einlesenZahl();
    basis = einlesenBasis();
    stellenZahl = umwandlung(z,basis);
-   ausgabe(z,basis,stellenZahl);
+   ausgeben(z,basis,stellenZahl);
    return 0;
 }
 
@@ -28,7 +28,7 @@ int umwandlung (int zahl,int basis)
    return n;
 }
 
-void ausgabe(int zahl,int basis, int n)
+void ausgeben(int zahl,int basis, int n)
 {
    int i;
    printf("Darstelllung von %d Basis %d\n",zahl,basis);
