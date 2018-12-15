@@ -2,16 +2,16 @@
 
 #define SIZE 31
 int ziffern[SIZE];
-int zahlEinlesen(void);
-int basisEinlesen(void);
-void ausgabe(int zahl, int basis,int n);
+int einlesenZahl(void);
+int einlesenBasis(void);
+void ausgeben(int zahl, int basis,int n);
 int umwandlung (int zahl,int basis);
 
 int main(void)
 {
    int z,basis,stellenZahl;
-   z = zahlEinlesen();
-   basis = basisEinlesen();
+   z = einlesenZahl();
+   basis = einlesenBasis();
    stellenZahl = umwandlung(z,basis);
    ausgabe(z,basis,stellenZahl);
    return 0;
@@ -42,7 +42,7 @@ void ausgabe(int zahl,int basis, int n)
    printf("\n\n\n");
 }
 
-int zahlEinlesen(void)
+int einlesenZahl(void)
 {
    int zahl;
    do {
@@ -52,7 +52,7 @@ int zahlEinlesen(void)
    return zahl;
 }
 
-int basisEinlesen(void)
+int einlesenBasis(void)
 {
    int basis;
    do {
