@@ -29,7 +29,7 @@ int umwandlung (int zahl)
 void ausgeben(int zahl,int n)
 {
    int i;
-   printf("Dualdarstelllung von %d\n",zahl);
+   printf("Dualdarstellung von %d\n",zahl);
    for (i=n-1; i>=0; i--)
    {
        printf("%1d",dual[i]);

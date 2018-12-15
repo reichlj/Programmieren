@@ -31,7 +31,7 @@ int umwandlung (int zahl,int basis)
 void ausgeben(int zahl,int basis, int n)
 {
    int i;
-   printf("Darstelllung von %d Basis %d\n",zahl,basis);
+   printf("Darstellung von %d Basis %d\n",zahl,basis);
    for (i=n-1; i>=0; i--)
    {
        if (ziffern[i] <10)
